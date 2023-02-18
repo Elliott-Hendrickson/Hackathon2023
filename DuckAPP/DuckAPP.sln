@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckAPP", "DuckAPP\DuckAPP.csproj", "{663FCD44-B797-4EA3-BD29-2936F2C8C0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckAPP-Tests", "DuckAPP-Tests\DuckAPP-Tests.csproj", "{4EEF3A3A-EEFC-47F0-B2F4-7F2E5012257D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663FCD44-B797-4EA3-BD29-2936F2C8C0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663FCD44-B797-4EA3-BD29-2936F2C8C0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663FCD44-B797-4EA3-BD29-2936F2C8C0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663FCD44-B797-4EA3-BD29-2936F2C8C0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EEF3A3A-EEFC-47F0-B2F4-7F2E5012257D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEF3A3A-EEFC-47F0-B2F4-7F2E5012257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEF3A3A-EEFC-47F0-B2F4-7F2E5012257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEF3A3A-EEFC-47F0-B2F4-7F2E5012257D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D80AD8A-8506-4A50-BD3A-548EF7D4FF2E}
+	EndGlobalSection
+EndGlobal
