@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\DuckAPP",
-    "\\DuckAPP\\DuckAPP"
+    "\\DuckAPP\\DuckAPP",
+    "\\DuckAPP\\DuckAPP\\BottomRightDuckSize",
+    "\\DuckAPP\\DuckAPP\\BrowserCollector"
   ],
-  "SelectedNode": "\\DuckAPP\\DuckAPP\\Form1.Designer.cs",
+  "SelectedNode": "\\DuckAPP\\DuckAPP\\BrowserCollector\\BrowserCollector.cs",
   "PreviewInSolutionExplorer": false
 }
