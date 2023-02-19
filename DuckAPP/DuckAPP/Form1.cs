@@ -17,7 +17,7 @@ namespace DuckAPP
             duckSpeechBalloon.ToolTipIcon = ToolTipIcon.None;
             duckSpeechBalloon.AutoPopDelay = 200;
             duckSpeechBalloon.AutomaticDelay = 10;
-            duckSpeechBalloon.Show(duckSpeaks, button1, 330, 10);
+            duckSpeechBalloon.Show(duckSpeaks, button1, 0, -20);
             await Task.Delay(1500);
             duckSpeechBalloon.Show("", button1, 330, 10);
         }
