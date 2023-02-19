@@ -1,9 +1,19 @@
 ﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Runtime.CompilerServices;
+//using System.Text;
+//using System.Threading.Tasks;
+//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-//public class BrowserCollector
+//namespace DuckAPP
 //{
-//	public Class1()
-//	{
-
-//	}
+//    internal static class GetSize
+//    {
+//        public static Point FindUserScreenSize()
+//        {
+//            var x = System.Windows.Forms.Screen.GetBounds(new Point(0, 0));
+//            return new Point(x.Width - 161, x.Height - 168);
+//        }
+//    }
 //}
