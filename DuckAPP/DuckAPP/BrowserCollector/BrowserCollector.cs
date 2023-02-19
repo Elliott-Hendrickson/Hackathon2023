@@ -43,7 +43,7 @@ namespace DuckAPP
                     }
                 }
             }
-            return "ding!";
+            return "dink!";
         }
         private static string warantedSite (string siteName)
         {

@@ -79,7 +79,7 @@
             // 
             this.funToolStripMenuItem.Name = "funToolStripMenuItem";
             this.funToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.funToolStripMenuItem.Text = "Weather";
+            this.funToolStripMenuItem.Text = "Start Browsing";
             this.funToolStripMenuItem.Click += new System.EventHandler(this.funToolStripMenuItem_Click);
             // 
             // Form1
