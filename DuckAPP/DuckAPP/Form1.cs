@@ -24,12 +24,7 @@ namespace DuckAPP
 
         public void duckOpinion()
         {
-            var currentOpinion = GetBrowserData.GetBrowserResponse();
-            if (currentOpinion != GetBrowserData.GetBrowserResponse())
-            {
-                currentOpinion = GetBrowserData.GetBrowserResponse();
-                duckSay(currentOpinion);
-            }
+            duckSay(GetBrowserData.GetBrowserResponse());
         }
 
         public Form1()
