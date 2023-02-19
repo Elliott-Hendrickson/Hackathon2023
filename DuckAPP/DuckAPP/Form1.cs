@@ -10,6 +10,8 @@ namespace DuckAPP
 
         public Form1()
         {
+            this.BackColor = Color.Magenta;
+            this.TransparencyKey = Color.Magenta;
             InitializeComponent();
         }
 
