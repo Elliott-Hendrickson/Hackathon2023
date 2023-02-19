@@ -20,6 +20,7 @@
             base.Dispose(disposing);
         }
 
+        
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -35,6 +36,7 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Yellow;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
@@ -45,7 +47,7 @@
             this.button1.Size = new System.Drawing.Size(386, 505);
             this.button1.TabIndex = 0;
             this.button1.Text = "\r\n";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
@@ -88,5 +90,6 @@
         private TextBox textBox1;
         private Button button2;
         private Button button3;
+
     }
 }
