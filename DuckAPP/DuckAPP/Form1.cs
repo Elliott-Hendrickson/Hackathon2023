@@ -5,7 +5,7 @@ namespace DuckAPP
         int quitStage = 0;
         private void DuckClick(object sender, EventArgs e)
         {
-            duckSay("Quack Quack!");
+            duckSay(GetBrowserData.GetBrowserResponse());
         }
 
         public async void duckSay(string duckSpeaks)
@@ -17,15 +17,14 @@ namespace DuckAPP
             duckSpeechBalloon.AutoPopDelay = 200;
             duckSpeechBalloon.AutomaticDelay = 10;
             duckSpeechBalloon.Show(duckSpeaks, button1, 0, -20);
-            await Task.Delay(1500);
+            await Task.Delay(3000);
             duckSpeechBalloon.Show("", button1, 330, 10);
         }
 
 
-        public async void duckOpinion()
+        public void duckOpinion()
         {
             var currentOpinion = GetBrowserData.GetBrowserResponse();
-            await Task.Delay(3000);
             if (currentOpinion != GetBrowserData.GetBrowserResponse())
             {
                 currentOpinion = GetBrowserData.GetBrowserResponse();
