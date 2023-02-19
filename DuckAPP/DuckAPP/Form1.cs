@@ -4,12 +4,10 @@ namespace DuckAPP
     {
         private void DuckClick(object sender, EventArgs e)
         {
-            button2.Visible = true;
-            button3.Visible = true;
-            duckSay("Go fuck yourself Elliott!");
+            GetBrowserData.GetBrowserResponse();
         }
 
-        private async void duckSay(string duckSpeaks)
+        public async void duckSay(string duckSpeaks)
         {
 
             ToolTip duckSpeechBalloon = new ToolTip();
