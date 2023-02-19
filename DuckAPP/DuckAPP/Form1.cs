@@ -2,8 +2,10 @@ namespace DuckAPP
 {
     public partial class Form1 : Form
     {
+        int quitStage = 0;
         private void DuckClick(object sender, EventArgs e)
         {
+            duckSay("Quack Quack!");
             GetBrowserData.GetBrowserResponse();
         }
 
@@ -31,7 +33,25 @@ namespace DuckAPP
 
         private void quitEvent(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            
+            if (quitStage == 0)
+            {
+                duckSay("Please don't kill me!");
+                Console.WriteLine("First attempt");
+                quitStage = 1;
+                button1.Image = Properties.Resources.sadduckE;
+            }
+            else if (quitStage == 1)
+            {
+                duckSay("I DON'T WANT TO DIE!!!!!");
+                Console.WriteLine("second attempt");
+                button1.Image = Properties.Resources.desperateduckE;
+                quitStage = 2;
+            }
+            else if (quitStage == 2)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
         }
     }
 }

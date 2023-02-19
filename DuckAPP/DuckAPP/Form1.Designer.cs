@@ -35,7 +35,6 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.funToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,29 +64,23 @@
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.quitToolStripMenuItem,
-            this.funToolStripMenuItem,
-            this.settingsToolStripMenuItem});
+            this.funToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(117, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 70);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitEvent);
             // 
             // funToolStripMenuItem
             // 
             this.funToolStripMenuItem.Name = "funToolStripMenuItem";
-            this.funToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
-            this.funToolStripMenuItem.Text = "Fun";
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
-            this.settingsToolStripMenuItem.Text = "Settings";
+            this.funToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funToolStripMenuItem.Text = "Weather";
+            this.funToolStripMenuItem.Click += new System.EventHandler(this.funToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -109,7 +102,6 @@
         private ContextMenuStrip contextMenuStrip1;
         private ToolStripMenuItem quitToolStripMenuItem;
         private ToolStripMenuItem funToolStripMenuItem;
-        private ToolStripMenuItem settingsToolStripMenuItem;
         internal Button button1;
     }
 }
