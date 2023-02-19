@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Windows.Automation;
 using System.Diagnostics;
+using Microsoft.VisualBasic;
 
 namespace DuckAPP
 {
@@ -34,11 +35,25 @@ namespace DuckAPP
                     AutomationElementCollection tabs = root?.FindAll(TreeScope.Descendants, condition);
                     foreach (AutomationElement ae in tabs)
                     {
-                        Trace.WriteLine(ae.Current.Name);
+                        var holder = warantedSite(ae.Current.Name);
+                        if(holder != "Nothing")
+                        {
+                            return holder;
+                        }
                     }
                 }
             }
-            return "ding";
+            return "ding!";
+        }
+        private static string warantedSite (string siteName)
+        {
+            string[,] bannedSites = new string[,]
+                {{"Chess", "Playing Chess Again?\nEver Played Duck Chess?"}, {"Reddit", "Get Off Reddit!"}, {"YouTube", "Uncle Bob Teaches Great Coding Videos!"}, {"Overflow", "Dont Copy The Code!" } };
+            for(int i = bannedSites.Length/2-1; i< bannedSites.Length/2; i++)
+            {
+                if (siteName.Contains(bannedSites[i,0])) { return bannedSites[i, 1]; }
+            }
+            return "Nothing";
         }
     }
 }
