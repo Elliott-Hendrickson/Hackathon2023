@@ -29,12 +29,19 @@ namespace DuckAPP
         {
             this.BackColor = Color.Magenta;
             this.TransparencyKey = Color.Magenta;
+            FormBorderStyle = FormBorderStyle.None;
+            TopMost = true;
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void quitEvent(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }
