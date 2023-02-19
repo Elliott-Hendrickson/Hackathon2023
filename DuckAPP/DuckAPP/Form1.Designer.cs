@@ -46,9 +46,10 @@
             this.button1.ContextMenuStrip = this.contextMenuStrip1;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.FlatAppearance.MouseDownBackColor = button1.BackColor;
+            this.button1.FlatAppearance.MouseOverBackColor = button1.BackColor;
+            this.button1.FlatStyle = FlatStyle.Flat;
+            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.Image = global::DuckAPP.Properties.Resources.Penguin;
             this.button1.Location = new System.Drawing.Point(360, 27);
             this.button1.Name = "button1";
@@ -56,6 +57,8 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "\r\n";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.DuckClick);
+
             // 
             // contextMenuStrip1
             // 
@@ -94,7 +97,6 @@
             this.button2.Text = "Want to learn more about what I can do?\r\nClick Here!";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Visible = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 

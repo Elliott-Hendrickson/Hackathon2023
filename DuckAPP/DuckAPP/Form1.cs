@@ -2,7 +2,7 @@ namespace DuckAPP
 {
     public partial class Form1 : Form
     {
-        private void button1_Click(object sender, EventArgs e)
+        private void DuckClick(object sender, EventArgs e)
         {
             button2.Visible = true;
             button3.Visible = true;
@@ -20,9 +20,6 @@ namespace DuckAPP
             duckSpeechBalloon.Show(duckSpeaks, button1, 330, 10);
             await Task.Delay(1500);
             duckSpeechBalloon.Show("", button1, 330, 10);
-
-
-
         }
 
         public Form1()
@@ -32,11 +29,6 @@ namespace DuckAPP
             FormBorderStyle = FormBorderStyle.None;
             TopMost = true;
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void quitEvent(object sender, EventArgs e)
