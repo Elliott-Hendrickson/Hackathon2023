@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj": {}
+    "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj": {
+    "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj",
         "projectName": "DuckAPP-Tests",
-        "projectPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj",
+        "projectPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
