@@ -24,8 +24,8 @@ namespace DuckAPP
 
         public Form1()
         {
-            this.BackColor = Color.Magenta;
-            this.TransparencyKey = Color.Magenta;
+            this.BackColor = Color.Black;
+            this.TransparencyKey = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
             TopMost = true;
             InitializeComponent();
