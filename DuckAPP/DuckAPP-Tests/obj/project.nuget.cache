@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UChd7TBPfqz1YV62L2TKGxvKV8et5du7QICSuFgWF0ueNb4PP2YAlhxd7d1eszq1gnPqF8LTPqnsBy/rbFXtYw==",
+  "dgSpecHash": "Wz2wjCDL/H+OJYCl5F6BW2tX6cxGz3srJYjMZ71H8k509wr3Gn+s+M+QX38DxhVGI+sHkbZznvXVl3SUxXnYvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP-Tests\\DuckAPP-Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

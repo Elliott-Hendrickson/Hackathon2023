@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP\\DuckAPP.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP\\DuckAPP.csproj",
       "projectName": "DuckAPP",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP\\DuckAPP.csproj",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP\\DuckAPP.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Hackathon2023\\DuckAPP\\DuckAPP\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\hackathon2023\\Again gitignore\\Hackathon2023\\DuckAPP\\DuckAPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
