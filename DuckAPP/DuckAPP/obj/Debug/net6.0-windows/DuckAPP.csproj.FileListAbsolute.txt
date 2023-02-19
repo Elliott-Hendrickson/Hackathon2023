@@ -52,3 +52,5 @@ C:\Users\Alex\Desktop\hackathon2023\Again gitignore\Hackathon2023\DuckAPP\DuckAP
 C:\Users\Alex\Desktop\hackathon2023\Again gitignore\Hackathon2023\DuckAPP\DuckAPP\obj\Debug\net6.0-windows\DuckAPP.pdb
 C:\Users\Alex\Desktop\hackathon2023\Again gitignore\Hackathon2023\DuckAPP\DuckAPP\obj\Debug\net6.0-windows\DuckAPP.genruntimeconfig.cache
 C:\Users\Alex\Desktop\hackathon2023\Again gitignore\Hackathon2023\DuckAPP\DuckAPP\obj\Debug\net6.0-windows\ref\DuckAPP.dll
+C:\Users\ellio\Desktop\Hackathon2023\DuckAPP\DuckAPP\obj\Debug\net6.0-windows\Interop.UIAutomationClient.dll
+C:\Users\ellio\Desktop\Hackathon2023\DuckAPP\DuckAPP\obj\Debug\net6.0-windows\DuckAPP.csproj.ResolveComReference.cache
