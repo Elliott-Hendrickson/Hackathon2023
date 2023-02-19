@@ -119,6 +119,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Location = GetSize.FindUserScreenSize();
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.contextMenuStrip1.ResumeLayout(false);
