@@ -13,7 +13,7 @@ namespace DuckAPP
         public static Point FindUserScreenSize ( )
         {
             var x = System.Windows.Forms.Screen.GetBounds(new Point(0,0));
-            return new Point(x.Width-800, x.Height-500);
+            return new Point(x.Width-626, x.Height-352);
         }
     }
 }
